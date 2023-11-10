@@ -1,0 +1,48 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #000000; /* Cambia el color de fondo según tu preferencia */
+    color: #fff; /* Cambia el color del texto según tu preferencia */
+    padding: 10px 20px;
+    display: flex;
+    border: white solid;
+    border: 4px solid;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgb(247, 247, 247);
+    justify-content: space-between;
+    align-items: center;
+    width: 1500px;
+    height: 40px;
+}
+
+/* Estilos para el logo */
+.navbar-logo img {
+    max-width: 80px; /* Ajusta el tamaño del logo según tu preferencia */
+    border-radius: 50%; /* Borde redondo */
+    border: 2px solid;
+    border-image-slice: 1;
+    border-image: linear-gradient(to right, rgb(71, 4, 148), rgb(194, 11, 194));
+}
+
+/* Estilos para la lista de enlaces de navegación */
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para cada elemento de la lista de enlaces de navegación */
+.nav-item {
+    margin-right: 20px; /* Espacio entre elementos de navegación */
+}
+
+/* Estilos para los enlaces de navegación */
+.nav-link {
+    text-decoration: none;
+    color: #fff; /* Cambia el color del texto del enlace según tu preferencia */
+    font-weight: bold;
+}
+
+/* Estilos para los enlaces de navegación al pasar el cursor sobre ellos */
+.nav-link:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el cursor */
+}
