@@ -1,12 +1,15 @@
 
 
-import React, { useContext, useState } from 'react';
+import React, {  useContext, useState } from 'react';
 import '../estilos/Card2.css';
 import { MisDatos } from '../Context/Myprovaider';
+import Buscador from './Buscador';
+
 
 
 function Card2() {
-  const{Datos, setDatos} =useContext(MisDatos);
+
+  const {Datos, setDatos} = useContext(MisDatos);
   const [clickCount, setClickCount] = useState(0);
 
   
@@ -40,10 +43,9 @@ const handleDelet = (pokemonId) => {
 
   return (
     <div className="card">
-     
      {Reccorido}
     </div>
-  );
+  )
 }
 
 export default Card2;

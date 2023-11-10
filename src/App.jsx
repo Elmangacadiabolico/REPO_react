@@ -10,10 +10,13 @@ function App() {
   return (
     <>
   
-    <Myprovaider/>
+        <Myprovaider>
+                  
                   <Navar/>
+                  <Buscador/>
                   <Card2/>
-    <Myprovaider/>
+                  
+        </Myprovaider>
     </>
   )
 }
